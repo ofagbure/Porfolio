@@ -13,8 +13,6 @@ If your README is very long, add a table of contents to make it easy for users t
 * [About](#About)
 * [Contact](#Contact)
 * [Portfolio](#Portfolio)
-* [Installation](#installation)
-* [Usage](#usage)
 * [License](#license)
 
 ## About
@@ -32,20 +30,11 @@ The contact page is a place for visitors to my site to reach out to me for more 
 This page includes some of the projects I have/ aim to work on. More information  will be added to this page as my protfolio grows in the coming weeks - months. 
 
 
-## Installation
-
-
-
-
-## Usage
-
-
-
 ## License
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2019] [Olufemi Fagbure]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -68,5 +57,4 @@ SOFTWARE.
 
 ## Badges
 
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/ofagbure/Portfolio?label=version)
-
+![GitHub last commit](https://img.shields.io/github/last-commit/ofagbure/Portfolio)
