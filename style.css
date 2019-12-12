@@ -1,6 +1,11 @@
 .navbar-brand {
     background-color: #4aaaa5;
-    padding: 10px;}
+    padding: 10px;
+color}
+
+.navbar-dark .navbar-toggler {
+    color: grey !important;
+}
 
 #submit {
     background-color: #4aaa;
