@@ -1,7 +1,22 @@
 .navbar-brand {
     background-color: #4aaaa5;
-    padding: 10px;}
+    padding: 10px;
+color: #777777;}
 
-.nav-item {
-        color: #777777;
-    }
+#submit {
+    background-color: #4aaa;
+    color: white;
+    height: 35px;
+    width: 75px;
+}
+.footer {
+    text-align: center;
+    height: 60px;
+    border-top: 8px solid #4aaaa5; background-color: #666666;
+}
+a.nav-link {
+    color: grey !important;
+}
+#text {
+    color: black !important;
+}
