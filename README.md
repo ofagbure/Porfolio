@@ -1,4 +1,5 @@
 # Developer Profile
+My personal developer profile that contains information about me, as well as my projects.
 
 ## Description 
 
@@ -7,8 +8,6 @@ This is my Developer Profile. It is a place where prospective employees and fell
 This profile page contains my personal information (background, interests, and a few more details about who I am), as well as a way for people to reach me, and examples of different projects I have worked on. As mentioned earlier, all are welcome to my page and I would be very happy to hear/ learn from you!
 
 ## Table of Contents 
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
 
 * [About](#About)
 * [Contact](#Contact)
@@ -34,7 +33,7 @@ This page includes some of the projects I have/ aim to work on. More information
 
 MIT License
 
-Copyright (c) [2019] [Olufemi Fagbure]
+Copyright (c) [2020] [Olufemi Fagbure]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
