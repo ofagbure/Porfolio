@@ -1,10 +1,10 @@
 .navbar-brand {
-    background-color: #4aaaa5;
+    background-color: #FF6433;
     padding: 10px;
 color}
 
 #submit {
-    background-color: #4aaa;
+    background-color: #ff6433;
     color: white;
     height: 35px;
     width: 75px;
@@ -12,10 +12,10 @@ color}
 .footer {
     text-align: center;
     height: 60px;
-    border-top: 8px solid #4aaaa5; background-color: #666666;
+    border-top: 8px solid #FF6433; background-color: #000000;
 }
 a.nav-link {
-    color: grey !important;
+    color: #000000 !important;
 }
 #text {
     color: black !important;
