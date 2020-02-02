@@ -1,19 +1,44 @@
+body {
+    background-image: url(./images/try.jpg);
+    background-repeat: repeat;
+    background-size: 100vw;
+}
+.jumbotron{
+    background: rgba(224, 231, 0, 0);
+}
+
 .navbar-brand {
-    background-color: #FF6433;
+    background-color: #E0E700;
     padding: 10px;
-color}
+}
+.display-8 {
+    background-color: #E0E700;
+    height: 60px;
+    justify-content: center;
+}
 
 #submit {
-    background-color: #ff6433;
-    color: white;
+    background-color: #E0E700;
+    color: black;
     height: 35px;
     width: 75px;
 }
+
+.welcome-card {
+    background: rgba(224, 231, 0, 0);
+    border: 0px;
+}
+
 .footer {
     text-align: center;
-    height: 60px;
-    border-top: 8px solid #FF6433; background-color: #000000;
+    border-top: 8px solid #E0E700; background-color: #E0E700;
 }
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
 a.nav-link {
     color: #000000 !important;
 }

@@ -9,23 +9,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71a24ccb38.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md text-secondary navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Femi Fagbure</a>
+            <a class="navbar-brand" href="./home.html">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse a justify-content-end" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse a justify-content-end" id="collapsibleNavbar"
+                data-target="#navbarToggl">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="index.html">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -36,44 +41,34 @@
     </nav>
 
     <div class="container pt-4 bg-light">
-        <div class="jumbotron bg-white">
+        <div class="jumbotron">
             <h1 class="display-4">Contact</h1>
-            <hr class="my-4">
+            <br>
+        
+            <h3 class="display-8 text-center">Have a question? Please enquire below</h3>
             <div class="card mb-3">
                 <div class="row no-gutters">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-
-                        <p>
-                            <label>
-                                <strong> Name </strong>
-                            </label>
-                            <br>
-                            <textarea id = "firstname" rows="1" cols="30" placeholder="Your Full Name"></textarea>
-                        </p>
-                        <br>
-                        <br>
-                        <p>
-                            <label>
-                                <strong> Email </strong>
-                            </label>
-                            <br>
-                            <textarea id = "email" rows="1" cols="30" placeholder="Your Email Address"></textarea>
-                        </p>
-                        <br>
-                        <br>
-                        <p>
-                            <label>
-                                <Strong> Message </Strong>
-                            </label>
-                            <br>
-                            <textarea rows="6" cols="60" placeholder="What Would You Like to Tell/Ask Me?"></textarea>
-                            <br>
-                        </p>
-                        <br>
-                        <button id="submit">Submit</button>
+                        
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="name" class="form-control" id="fullname" placeholder="First Name Last Name">
+                              </div>
+                            <div class="form-group">
+                              <label for="email">Email address</label>
+                              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="message">Message</label>
+                              <textarea class="form-control" id="message" rows="8" placeholder="Type your message here"></textarea>
+                              <br>
+                              <button id="submit">Submit</button>
+                            </div>
+                            </form>
+                        
                         <div>
                             <h4 id="response"></h4>
                           </div>
@@ -86,12 +81,22 @@
 
     <footer class="footer bg-secondary text-dark">
         <div class="container">
-            <span class="text-muted" 
-            id ="text">
-                Copyright &copy;
+            <span class="text-muted" id="text">
+                <p>Copyright &copy; 2020 Femi Fagbure&nbsp;• Georgia Institute of Technology&nbsp;</p>
+                <a href="https://www.linkedin.com/in/femi-fagbure/"><img class = "icon" src="./images/linkedin.png"></a>
+                <a href="https://github.com/ofagbure"><img class = "icon" src= "./images/github.png"></a>
+                <a href="mailto:femifagbure@gmail.com"><img class = "icon" src="images/email.png"></a>
+                <a href="tel:917-442-0383"><img class = "icon" src="images/phone.jpg"></a>
             </span>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 
