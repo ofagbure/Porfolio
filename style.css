@@ -1,5 +1,5 @@
 body {
-    background-image: url(./images/try.jpg);
+    background-image: url(./images/white.jpg);
     background-repeat: repeat;
     background-size: 100vw;
 }
@@ -8,17 +8,17 @@ body {
 }
 
 .navbar-brand {
-    background-color: #E0E700;
+    background-color: #9E9E9E ;
     padding: 10px;
 }
 .display-8 {
-    background-color: #E0E700;
+    background-color: #9E9E9E ;
     height: 60px;
     justify-content: center;
 }
 
 #submit {
-    background-color: #E0E700;
+    background-color: #9E9E9E ;
     color: black;
     height: 35px;
     width: 75px;
@@ -31,7 +31,7 @@ body {
 
 .footer {
     text-align: center;
-    border-top: 8px solid #E0E700; background-color: #E0E700;
+    border-top: 8px solid #9E9E9E ; background-color: #9E9E9E ;
 }
 
 .icon {
