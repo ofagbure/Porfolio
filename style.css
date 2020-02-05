@@ -4,6 +4,9 @@ body {
     background-size: 100vw;
 }
 
+.card-img-top {
+    height: 210px;
+}
 
 .navbar-brand {
     background-color: #9E9E9E ;
