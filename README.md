@@ -1,5 +1,5 @@
 # Developer Profile
-My personal developer profile that contains information about me, as well as my projects.
+My personal developer profile that contains information about me, as well as my projects. You can view this website [here](https://ofagbure.github.io/Portfolio/)
 
 ## Description 
 

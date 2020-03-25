@@ -7,17 +7,19 @@ body {
 }
 
 .navbar-brand {
-    background-color: #9E9E9E ;
+    background-color: orange ;
     padding: 10px;
 }
 .display-8 {
-    background-color: #9E9E9E ;
+    background-color: orange ;
     height: 60px;
     justify-content: center;
 }
-
+.intro {
+    border:10px;
+}
 #submit {
-    background-color: #9E9E9E ;
+    background-color: orange ;
     color: black;
     height: 35px;
     width: 75px;
@@ -25,7 +27,7 @@ body {
 
 .footer {
     text-align: center;
-    border-top: 8px solid #9E9E9E ; background-color: #9E9E9E ;
+    border-top: 8px solid orange; background-color: orange ;
 }
 
 .icon {
@@ -43,3 +45,9 @@ a.nav-link {
     height: 80px;
     width: 80px;
     }
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
